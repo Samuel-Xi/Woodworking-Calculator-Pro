@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center protractor + carpenter square emblem -->
+    <group android:translateX="22" android:translateY="24">
+        <!-- Carpenter's square -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M8,8 L56,8 L56,18 L18,18 L18,52 L8,52 Z" />
+        <!-- Protractor arc -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:fillAlpha="0.92"
+            android:pathData="M22,46 m-18,0 a18,18 0 1 1 36,0 z" />
+        <path
+            android:fillColor="#8B4513"
+            android:pathData="M22,46 m-12,0 a12,12 0 1 1 24,0 z" />
+        <!-- Tick marks -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1.6"
+            android:pathData="M22,28 L22,32 M14,30 L16,33 M30,30 L28,33 M9,42 L12,42 M35,42 L32,42" />
+    </group>
+</vector>

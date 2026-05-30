@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Woodworking Pro</string>
+    <string name="app_subtitle">Workshop calculators · offline</string>
+    <string name="home_privacy_badge">Offline calculations · no ads · no tracking</string>
+    <string name="home_pro_badge">Pro</string>
+    <string name="home_upgrade_title">Unlock Pro · one-time purchase</string>
+    <string name="home_upgrade_body">Cut optimization, board feet, stairs, spacing and more — no subscription, no ads.</string>
+
+    <!-- Tools -->
+    <string name="tool_miter">Miter Angle</string>
+    <string name="tool_miter_desc">Corner cuts for frames &amp; polygons</string>
+    <string name="tool_flooring">Flooring &amp; Tile</string>
+    <string name="tool_flooring_desc">Area, planks, boxes &amp; waste</string>
+    <string name="tool_stair">Stair Layout</string>
+    <string name="tool_stair_desc">Risers, treads, stringer length</string>
+    <string name="tool_boardcut">Board Optimizer</string>
+    <string name="tool_boardcut_desc">1D cut layouts with kerf</string>
+    <string name="tool_sheetcut">Sheet Optimizer</string>
+    <string name="tool_sheetcut_desc">2D plywood / MDF cut layouts</string>
+    <string name="tool_boardfeet">Board Feet &amp; Cost</string>
+    <string name="tool_boardfeet_desc">Lumber volume, waste &amp; price</string>
+    <string name="tool_spacing">Equal Spacing</string>
+    <string name="tool_spacing_desc">Balusters, slats, screws &amp; shelves</string>
+    <string name="tool_ceiling">Ceiling Joists</string>
+    <string name="tool_ceiling_desc">Spacing &amp; total linear length</string>
+    <string name="tool_paint">Paint Estimator</string>
+    <string name="tool_paint_desc">Coverage, coats, gallons</string>
+    <string name="tool_convert">Unit Converter</string>
+    <string name="tool_convert_desc">mm · cm · m · in · ft</string>
+    <string name="tool_lumber">Lumber Reference</string>
+    <string name="tool_lumber_desc">Nominal vs. actual sizes</string>
+    <string name="tool_history">History</string>
+    <string name="tool_history_desc">Saved calculations on this device</string>
+
+    <!-- Common -->
+    <string name="action_save">Save</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_back">Back</string>
+    <string name="copied">Copied to clipboard</string>
+    <string name="saved">Saved to history</string>
+    <string name="empty_history">No saved calculations yet</string>
+    <string name="empty_history_hint">Tap the bookmark on any tool to keep results here.</string>
+    <string name="results">Results</string>
+    <string name="inputs">Inputs</string>
+    <string name="settings">Settings</string>
+
+    <!-- Miter -->
+    <string name="miter_mode_corner">Corner</string>
+    <string name="miter_mode_polygon">Polygon</string>
+    <string name="miter_mode_compound">Crown (compound)</string>
+    <string name="miter_corner_angle">Inside corner angle (°)</string>
+    <string name="miter_sides">Number of sides</string>
+    <string name="miter_spring_angle">Spring angle (°)</string>
+    <string name="miter_wall_angle">Wall corner (°)</string>
+    <string name="miter_blade">Miter / saw angle</string>
+    <string name="miter_bevel">Bevel angle</string>
+
+    <!-- Flooring -->
+    <string name="floor_room_length">Room length</string>
+    <string name="floor_room_width">Room width</string>
+    <string name="floor_unit">Length unit</string>
+    <string name="floor_plank_length">Plank / tile length</string>
+    <string name="floor_plank_width">Plank / tile width</string>
+    <string name="floor_plank_unit">Plank unit</string>
+    <string name="floor_box_count">Pieces per box</string>
+    <string name="floor_waste">Waste %</string>
+    <string name="floor_room_area">Room area</string>
+    <string name="floor_piece_area">Piece area</string>
+    <string name="floor_pieces_base">Pieces (no waste)</string>
+    <string name="floor_pieces_total">Pieces (with waste)</string>
+    <string name="floor_boxes">Boxes needed</string>
+
+    <!-- Stair -->
+    <string name="stair_total_rise">Total rise</string>
+    <string name="stair_total_run">Total run</string>
+    <string name="stair_pref_riser">Preferred riser height</string>
+    <string name="stair_unit">Unit</string>
+    <string name="stair_num_risers">Number of risers</string>
+    <string name="stair_num_treads">Number of treads</string>
+    <string name="stair_riser_height">Riser height</string>
+    <string name="stair_tread_depth">Tread depth</string>
+    <string name="stair_stringer">Stringer length</string>
+    <string name="stair_pitch">Pitch</string>
+    <string name="stair_code_warn">Outside common building-code range</string>
+    <string name="stair_code_ok">Within typical residential code (IRC)</string>
+
+    <!-- Board cut -->
+    <string name="board_stock_length">Stock length</string>
+    <string name="board_kerf">Saw kerf</string>
+    <string name="board_unit">Unit</string>
+    <string name="board_add_cut">Add cut</string>
+    <string name="board_cut_length">Cut length</string>
+    <string name="board_cut_qty">Qty</string>
+    <string name="board_total_stocks">Stock pieces needed</string>
+    <string name="board_total_waste">Total waste</string>
+    <string name="board_efficiency">Material efficiency</string>
+    <string name="board_layout">Cut layout</string>
+
+    <!-- Board feet -->
+    <string name="boardfeet_thickness">Thickness</string>
+    <string name="boardfeet_width">Width</string>
+    <string name="boardfeet_length">Length</string>
+    <string name="boardfeet_quantity">Quantity</string>
+    <string name="boardfeet_waste">Waste</string>
+    <string name="boardfeet_price">Price</string>
+    <string name="boardfeet_each">Board feet / piece</string>
+    <string name="boardfeet_base">Base board feet</string>
+    <string name="boardfeet_waste_amount">Waste allowance</string>
+    <string name="boardfeet_total">Total board feet</string>
+    <string name="boardfeet_cost">Estimated cost</string>
+
+    <!-- Equal spacing -->
+    <string name="spacing_mode_count">Known count</string>
+    <string name="spacing_mode_gap">Target gap</string>
+    <string name="spacing_span">Opening / span</string>
+    <string name="spacing_item_width">Item width</string>
+    <string name="spacing_item_count">Item count</string>
+    <string name="spacing_target_gap">Target max gap</string>
+    <string name="spacing_gap">Equal gap</string>
+    <string name="spacing_count">Items</string>
+    <string name="spacing_center">Center-to-center</string>
+    <string name="spacing_first_center">First center mark</string>
+    <string name="spacing_marks">Marks from start</string>
+    <string name="spacing_warning">Warning</string>
+    <string name="spacing_invalid">Items do not fit</string>
+
+    <!-- Ceiling -->
+    <string name="ceiling_room_length">Room length (along joists)</string>
+    <string name="ceiling_room_width">Room width (across joists)</string>
+    <string name="ceiling_spacing">On-center spacing</string>
+    <string name="ceiling_unit">Unit</string>
+    <string name="ceiling_count">Joists needed</string>
+    <string name="ceiling_linear">Total linear length</string>
+    <string name="ceiling_runners">Cross runners (perpendicular)</string>
+
+    <!-- Paint -->
+    <string name="paint_wall_length">Total wall length</string>
+    <string name="paint_wall_height">Wall height</string>
+    <string name="paint_openings">Doors / window area</string>
+    <string name="paint_coverage">Coverage</string>
+    <string name="paint_coats">Coats</string>
+    <string name="paint_unit_metric">Metric (m² · L)</string>
+    <string name="paint_unit_imperial">Imperial (ft² · gal)</string>
+    <string name="paint_net_area">Net surface area</string>
+    <string name="paint_total">Paint required</string>
+
+    <!-- Convert -->
+    <string name="convert_amount">Amount</string>
+    <string name="convert_from">From</string>
+
+    <!-- Lumber -->
+    <string name="lumber_nominal">Nominal</string>
+    <string name="lumber_actual_in">Actual (in)</string>
+    <string name="lumber_actual_mm">Actual (mm)</string>
+    <string name="lumber_softwood">Softwood (S4S)</string>
+    <string name="lumber_sheet">Sheet goods</string>
+
+    <!-- Settings -->
+    <string name="about">About</string>
+    <string name="about_text">Woodworking Calculator Pro keeps every calculation on this device. The only time the app talks to a Google server is when you tap "Unlock Pro" to make the one-time in-app purchase — no analytics, no ads, no tracking.</string>
+    <string name="version_label">Version</string>
+
+    <!-- Paywall -->
+    <string name="paywall_title">Unlock Pro</string>
+    <string name="paywall_hero_locked">Unlock the full workshop</string>
+    <string name="paywall_hero_unlocked">Pro unlocked · thank you</string>
+    <string name="paywall_hero_subtitle">One-time purchase · no subscription · no ads · no tracking</string>
+    <string name="paywall_includes">Pro includes</string>
+    <string name="paywall_feature_boardcut">1D board cut optimizer with kerf and material efficiency</string>
+    <string name="paywall_feature_sheetcut">2D sheet optimizer for plywood, MDF and OSB</string>
+    <string name="paywall_feature_boardfeet">Board feet and lumber cost estimator</string>
+    <string name="paywall_feature_stair">Stair layout with IRC riser/tread checks</string>
+    <string name="paywall_feature_spacing">Equal spacing for balusters, slats and shelves</string>
+    <string name="paywall_feature_ceiling">Ceiling joist count and total linear length</string>
+    <string name="paywall_feature_flooring">Flooring and tile estimator with waste &amp; box count</string>
+    <string name="paywall_feature_history">Unlimited local history of saved calculations</string>
+    <string name="paywall_feature_fractions">Imperial fraction input (e.g. 5\' 6 3/4\")</string>
+    <string name="paywall_promise_title">Honest pricing</string>
+    <string name="paywall_promise_body">Buy once and own it. The free tier stays usable forever. No upgrades, no subscriptions, no telemetry. If your Google account already bought Pro, hit Restore.</string>
+    <string name="paywall_unlock">Unlock Pro</string>
+    <string name="paywall_unlock_priced">Unlock Pro · %1$s</string>
+    <string name="paywall_already_pro">Already unlocked</string>
+    <string name="paywall_restore">Restore purchase</string>
+    <string name="paywall_billing_unavailable">Google Play Billing is unavailable on this device.</string>
+    <string name="paywall_purchased">Pro unlocked. Enjoy.</string>
+    <string name="paywall_cancelled">Purchase cancelled.</string>
+    <string name="paywall_error">Couldn\'t complete the purchase. Try again later.</string>
+
+    <!-- Sheet cut (2D) -->
+    <string name="sheet_sheet_length">Sheet length</string>
+    <string name="sheet_sheet_width">Sheet width</string>
+    <string name="sheet_kerf">Saw kerf</string>
+    <string name="sheet_unit">Unit</string>
+    <string name="sheet_part_length">Part length</string>
+    <string name="sheet_part_width">Part width</string>
+    <string name="sheet_part_qty">Qty</string>
+    <string name="sheet_add_part">Add part</string>
+    <string name="sheet_sheets_needed">Sheets needed</string>
+    <string name="sheet_efficiency">Material efficiency</string>
+    <string name="sheet_parts_placed">Parts placed</string>
+    <string name="sheet_parts_skipped">Skipped (too large)</string>
+    <string name="sheet_layout">Sheet layouts</string>
+
+    <!-- Fraction input -->
+    <string name="hint_fraction">Accepts 3 1/8, 5\' 6 3/4\", 1.5 etc.</string>
+
+</resources>

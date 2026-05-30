@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Used by themes only; runtime palette is defined in Compose theme. -->
+    <color name="brand_wood">#8B4513</color>
+    <color name="brand_wood_light">#C68642</color>
+    <color name="brand_dark">#333333</color>
+    <color name="brand_bg">#FAFAFA</color>
+    <color name="brand_bg_dark">#121212</color>
+</resources>
